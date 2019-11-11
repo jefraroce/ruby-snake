@@ -2,7 +2,7 @@
 
 Classic snake game written in Ruby with the awesome [ruby2d](http://www.ruby2d.com/) library.
 
-![ruby_snake]()
+![ruby_snake](https://github.com/jefraroce/ruby-snake/demo.gif)
 
 # Install
 
