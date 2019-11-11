@@ -2,13 +2,20 @@
 
 Classic snake game written in Ruby with the awesome [ruby2d](http://www.ruby2d.com/) library.
 
+![ruby_snake](https://user-images.githubusercontent.com/760933/48669271-293d5e00-eae8-11e8-9359-a9a07005517f.gif)
+
 # Install
 
-Then clone the source code to your local:
+First clone the source code to your local:
 
 ```
 git clone https://github.com/jefraroce/ruby-snake.git
-cd snake
+```
+
+Then move inside the project and install the dependencies.
+
+```
+cd ruby-snake
 bundle install
 ```
 
@@ -17,7 +24,7 @@ NOTE: If you have troubles installing Ruby2D gem, check its documentation https:
 # Play
 
 ```
-cd snake
+cd ruby-snake
 bundle exec ruby src/app.rb
 ```
 
@@ -28,7 +35,7 @@ Paddle control:
 # Run Tests
 
 ```
-cd snake
+cd ruby-snake
 bundle exec ruby test/actions_test.rb
 ```
 
