@@ -107,7 +107,6 @@ module View
     end
 
     def handle_key_event(event, state)
-      puts "#{event.key} <=> #{state.current_direction}"
       case event.key
       when 'up'
         @app.send_action(:change_direction, Model::Direction::UP)

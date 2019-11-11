@@ -19,8 +19,6 @@ module Actions
   def self.change_direction(state, next_direction)
     if direction_is_valid?(state.current_direction, next_direction) && direction_is_valid?(state.snake.last_head_direction, next_direction)
       state.current_direction = next_direction
-    else
-      puts "Invalid direction"
     end
 
     state
