@@ -7,7 +7,7 @@ Classic snake game written in Ruby with the awesome [ruby2d](http://www.ruby2d.c
 Then clone the source code to your local:
 
 ```
-git clone https://github.com/tiagopog/snake.git
+git clone https://github.com/jefraroce/ruby-snake.git
 cd snake
 bundle install
 ```
@@ -24,6 +24,13 @@ bundle exec ruby src/app.rb
 Paddle control:
 
 * Arrow Buttons
+
+# Run Tests
+
+```
+cd snake
+bundle exec ruby test/actions_test.rb
+```
 
 # License MIT
 
